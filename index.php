@@ -6,4 +6,4 @@
 
     require_once 'route/Route.php';
 
-    require_once Route::calling($_GET);
+    Route::calling($_GET);
